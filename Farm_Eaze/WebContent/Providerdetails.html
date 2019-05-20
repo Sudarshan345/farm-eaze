@@ -1,0 +1,108 @@
+b <!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	width: 100%;
+	height: 1150px;
+	background-image: url("images/user.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.a {
+	width: 700px;
+	height: 900px;
+	padding: 30px;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #82A9C5;
+	text-align: center;
+	font-weight: 800;
+	border-radius: 40px;
+	color: black;
+	opacity:.9;
+}
+
+.a input[type="text"], .a input[type="password"] {
+	border: 0;
+	background: none;
+	margin: 5px auto;
+	border: 1px solid white;
+	padding: 14px 10px;
+	width: 300px;
+	height: 10px;
+	color: white;
+	border-radius: 10px;
+	transition: 0.25s;
+	outline: none;
+	margin-left: 60px;
+}
+
+lable {
+	color: white;
+	font-size: 20px;
+}
+
+.a input[type="submit"] {
+	border-radius: 25px;
+	border: 2px solid #2ecc71;
+	background: green;
+	color: white;
+	padding: 15px 35px;
+	cursor: pointer;
+}
+
+.a input[type="submit"]:hover {
+	background: #2ecc71;
+}
+</style>
+</head>
+<body>
+	<form class="a" action="ProviderdetailsServlet">
+		<lable>
+		<h2>PROVIDER DETAILS</h2>
+		<br>
+		<br>
+		<lable> ProviderName</lable>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:<input
+			type="text" name="provider_name" placeholder="ProviderName">
+		<br>
+		<br>
+		<lable> Product</lable>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:<input
+			type="text" name="product" placeholder="tractor/harvester/dozer">
+		<br>
+		<br>
+		<lable> Manufacture-Year</lable>&nbsp&nbsp:<input type="text"
+			name="maufacture_year" placeholder="ex...mahindra 575 2009">
+		<br>
+		<br>
+		<lable> Tractor Reg No</lable>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:<input
+			type="text" name="reg_no" placeholder="registaionnumber"> <br>
+		<br>
+		<lable> MobileNumber</lable>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:<input
+			type="text" name="mobile_num" placeholder="mobilenumber"> <br>
+		<br>
+		<lable> Pincode&nbsp</lable>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:<input
+			type="text" name="pin" placeholder="pincode"> <br>
+		<br>
+		<lable> VillageName</lable>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:<input
+			type="text" name="village" placeholder="village"> <br>
+		<br>
+		<lable> Mandal&nbsp</lable>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:<input
+			type="text" name="mandal" placeholder="mandal"> <br>
+		<br> 
+		<lable> District&nbsp</lable>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:<input
+			type="text" name="district" placeholder="district"> <br>
+		<br>
+		<lable> State</lable>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:<input
+			type="text" name="state" placeholder="state"> <br>
+		<br>
+
+		<input type="submit" value="Login">
+	</form>
+
+</body>
+
+</html>

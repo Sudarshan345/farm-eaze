@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>FamEaze</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+.navbar-default {
+	background-image: url('images/green.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: url("images/hdbg.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	
+}
+
+.a {
+	width: 300px;
+	padding: 30px;
+	position: absolute;
+	top: 50%;
+	right: 10%;
+	transform: translate(-50%, -50%);
+	background-image: url("img9.jpg");
+	text-align: center;
+	font-weight: 800;
+	border-radius: 40px;
+	color: black;
+	opacity: .8;
+	
+	background-color: #73e0a942
+}
+
+.a input[type="text"], .a input[type="password"] {
+	border: 0;
+	background: none;
+	margin: 0px auto;
+	text-align: center;
+	border: 2px solid #565D59;
+	padding: 14px 10px;
+	width: 200px;
+	color: black;
+	border-radius: 25px;
+	transition: 0.25s;
+	outline: none;
+}
+
+.a input[type="submit"] {
+	border-radius: 25px;
+	border: 2px solid #565D59;
+	background: #5dd45dcc;
+	color: white;
+	padding: 10px 30px;
+	cursor: pointer;
+}
+
+.a input[type="submit"]:hover {
+	background: green;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+	background-image: url('images/green.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+</style>
+</head>
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+
+				<a class="navbar-brand" href="farmeaze.html">FARMEAZE</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="farmeaze.html">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Equipments</a></li>
+				<li><a href="#">Admin</a></li>
+				<li><a href="#">Providers</a></li>
+				<li><a href="#">Users</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#"><span class="glyphicon glyphicon-user"></span>
+						Login</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>
+						Contact Us</a></li>
+			</ul>
+		</div>
+	</nav>
+	<form class="a" action="ABC">
+
+
+		<h2>ADMIN LOGIN</h2>
+		UserName:<input type="text" name="name" placeholder="Username"><br>
+		<br> Password:<input type="password" name="pswd"
+			placeholder="password"><br> <br> <input
+			type="submit" value="login">
+
+	</form>
+
+	<div class="footer">
+		<p>FarmEaze Copy-right @ 2019</p>
+	</div>
+</body>
+</html>
