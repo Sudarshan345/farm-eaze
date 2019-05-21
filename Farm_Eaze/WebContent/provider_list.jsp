@@ -46,7 +46,7 @@ thead,th {
       <a class="navbar-brand" href="farmeaze.html">FARMEAZE</a>
     </div>
     <ul class="nav navbar-nav">
-     <li class="active"><a href="farmeaze.html">Home</a></li>
+     <li><a href="farmeaze.html">Home</a></li>
       <li><a href="#">About Us</a></li>
       <li><a href="#">Equipments</a></li>
     <li><a href="Admin_login.html">Admin</a></li>
@@ -65,7 +65,7 @@ thead,th {
 
 
 <div class="sidenav">
-  <ul style="list-style:none">
+  <ul id="sidelist">
 <li><a href="Providerdetails.html"><img src="images/adduser.png" height="30px" width="30px"> Add Provider</a></li>
  <li  class="active"> <a href="provider_view.html"><img src="images/list.png" height="30px" width="30px"> Provider View</a></li>
  <li> <a href="userlogin.html"><img src="images/adduser.png" height="30px" width="30px"> User Create</a></li>
@@ -78,7 +78,7 @@ thead,th {
 
 
 <div class="main">
-	<h3>All providers list</h3>
+	<h2 style="color:orange;text-align:center">All providers list</h2>
 		<table>
 			<thead>
 			<tr>
@@ -107,9 +107,9 @@ thead,th {
 			
 				<a href=<%="\"ProviderequipmentlistServlet?name=" + pblist.provider_name + "&mno=" + pblist.mobile_no+ "\""%>><button class="btn btn-primary">Equipment</button></a>
 				</td>
-				<td><button class="btn btn-primary">Update</button></td>
-				<td><button class="btn btn-success">View</button></td>
-				<td><button class="btn btn-danger">Delete</button></td>
+				<td><button class="btn btn-default"><img src="images/edit.png" height="20px" width="20px"></button></td>
+				<td><button class="btn btn-default"><img src="images/view.png" height="20px" width="20px"></button></td>
+				<td><button class="btn btn-default"><img src="images/delte.png" height="25px" width="25px"></button></td>
 			</tr>
 			<% 
 		}

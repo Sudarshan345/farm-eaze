@@ -14,7 +14,7 @@
 table {
  
   border-collapse: collapse;
-  width: 100%;
+  width: 70%;
 }
 
 td, th {
@@ -62,7 +62,7 @@ thead,th {
 
 
 <div class="sidenav">
-  <ul style="list-style:none">
+  <ul id="sidelist">
 <li><a href="Providerdetails.html"><img src="images/adduser.png" height="30px" width="30px"> Add Provider</a></li>
  <li  class="active"> <a href="provider_view.html"><img src="images/list.png" height="30px" width="30px"> Provider View</a></li>
  <li> <a href="userlogin.html"><img src="images/adduser.png" height="30px" width="30px"> User Create</a></li>
@@ -75,8 +75,8 @@ thead,th {
 
 
 <div class="main">
-<h3>All Equipments based provider list</h3>
-		<table>
+<h3 style="color:orange;text-align:center">All Equipments based provider list</h3>
+		<table align="center">
 			<thead>
 			<tr>
 			
